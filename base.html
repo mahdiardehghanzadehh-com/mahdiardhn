@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت حرفه‌ای من</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+<header class="bg-white shadow-md p-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-bold text-blue-600">سایت مهدیار</h1>
+        <nav>
+            <a href="/" class="text-gray-700 hover:text-blue-600 mx-2">خانه</a>
+            <a href="#" class="text-gray-700 hover:text-blue-600 mx-2">درباره</a>
+            <a href="#" class="text-gray-700 hover:text-blue-600 mx-2">تماس</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container mx-auto mt-8">
+    {% block content %}{% endblock %}
+</main>
+
+<footer class="bg-white shadow-inner p-4 mt-12 text-center text-gray-600">
+    © 2025 سایت مهدیار. همه حقوق محفوظ است.
+</footer>
+
+</body>
+</html>
